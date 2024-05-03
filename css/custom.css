@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #add8e6;
+}
+
+.header {
+    height: 400px;
+    position: relative;
+    background-image: url('../images/hbd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.birthday-wish {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffc0cb;
+}
+
+.birthday-wish h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+    color: #1E2832;
+}
+
+.birthday-wish p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.birthday-wish p.text-left {
+    text-align: left;
+}
+
+.birthday-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
